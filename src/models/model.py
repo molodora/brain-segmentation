@@ -81,14 +81,3 @@ class UNet(nn.Module):
 
         # no need for activation if we use BCEWithLogitsLoss
         return self.conv_classifier(x)
-
-
-# def test():
-#     x = torch.randn((3, 3, 256, 256))
-#     model = UNet(in_channels=3, out_channels=1)
-#     preds = model(x)
-#     print(preds.shape, x.shape)
-
-
-# if __name__ == "__main__":
-#     test()
