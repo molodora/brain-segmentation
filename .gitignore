@@ -1,0 +1,9 @@
+**/__pycache__
+**/.vscode
+**/.dockerignore
+**.pt
+**.tar
+*/saved_images
+/data
+/models
+/tests
