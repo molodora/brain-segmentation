@@ -1,14 +1,10 @@
 import os
-from typing import Optional, Callable, Tuple
+from typing import Optional, Callable
 
 import numpy as np
 from PIL import Image
-import torch
-from torch import Tensor
-from torch.utils.data import Dataset, DataLoader
-import albumentations as A
-from albumentations.pytorch import ToTensorV2
-from tqdm import tqdm
+
+from torch.utils.data import Dataset
 
 
 class TCGADataset(Dataset):
