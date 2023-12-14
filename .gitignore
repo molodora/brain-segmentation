@@ -1,9 +1,8 @@
 **/__pycache__
+**/.pytest_cache
 **/.vscode
-**/.dockerignore
 **.pt
 **.tar
 */saved_images
 /data
 /models
-/tests
